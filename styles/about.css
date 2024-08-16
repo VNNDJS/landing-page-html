@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("Quicksand-VariableFont_wght.ttf");
+}
+
+.page2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.left_page2 {
+  width: 65%;
+  padding-right: 15vw;
+  padding-left: 10vw;
+  padding-top: 10%;
+  height: 100dvh;
+}
+
+.tittle_page2 {
+  font-size: 65px;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  color: #2a5934;
+}
+
+.param_page2 {
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+
+.button_page2 {
+  font-size: 18px;
+  padding: 10px 50px;
+  margin-top: 5%;
+  background: #f95e26;
+  color: #fafdfb;
+  font-weight: bold;
+  border: none;
+}
+
+.button_page2:hover {
+  transition: 1s;
+  background: #3fb82a;
+  color: rgb(42, 74, 70);
+  border: 1px solid gold;
+}
+
+.rigth_page2 {
+  background: url("/run/media/mihago/826EC8136EC7FE43/DOWNLOADS/front-vinany/Front-end/images/Visite de la magnifique réserve villageoise d'Anja à Madagascar.jpeg");
+  width: 40%;
+  height: auto;
+}
