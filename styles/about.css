@@ -53,7 +53,45 @@
 }
 
 .rigth_page2 {
-  background: url("/run/media/mihago/826EC8136EC7FE43/DOWNLOADS/front-vinany/Front-end/images/Visite de la magnifique réserve villageoise d'Anja à Madagascar.jpeg");
+  background: url("/run/media/mihago/826EC8136EC7FE43/DOWNLOADS/front-vinany/assets/Visite de la magnifique réserve villageoise d'Anja à Madagascar.jpeg");
   width: 40%;
   height: auto;
+}
+
+@media (max-width:700px) {
+  .page2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.tittle_page2 {
+  font-size: 45px;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  color: #2a5934;
+}
+
+
+.rigth_page2 {
+  background: url("/run/media/mihago/826EC8136EC7FE43/DOWNLOADS/front-vinany/assets/Lokobe Nature Special Reserve - All You Need to Know BEFORE You Go (2024).jpeg");
+  width: 100%;
+  height: 400px;
+}
+
+  
+.param_page2 {
+  font-size: 15px;
+  padding-bottom: 5%;
+}
+
+.left_page2 {
+  width: 100%;
+  padding-right: 15vw;
+  padding-left: 10vw;
+  padding-top: 10%;
+  height: auto;
+  margin-bottom: 5%;
+}
+
 }
