@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("Quicksand-VariableFont_wght.ttf");
+}
+
+.fauna_page {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_fauna {
+    width: 50%;
+    height: 100dvh;
+    padding: 10% 15%;
+}
+
+.fauna_tittle {
+    font-size: 70px;
+    margin-bottom: 5%;
+    color: rgb(42, 74, 70);
+}
+
+.left_fauna p {
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.rigth_fauna{
+    display: flex;
+    justify-content: center;
+} 
+
+.rigth_fauna_image{
+    background: url("/run/media/mihago/826EC8136EC7FE43/DOWNLOADS/front-vinany/assets/Turtles.jpeg");
+    width: 30dvw;
+    height: 75dvh;
+    margin-top: 20%;
+}
+
+@media (max-width: 700px) {
+    
+.fauna_page {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.fauna_tittle {
+    font-size: 50px;
+    margin-bottom: 5%;
+    color: rgb(42, 74, 70);
+}
+
+.left_fauna p {
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.left_fauna {
+    width: 100%;
+    height: 50dvh;
+    padding: 10% 15%;
+}
+
+
+.rigth_fauna_image{
+    background: url("/run/media/mihago/826EC8136EC7FE43/DOWNLOADS/front-vinany/assets/+25 ANIMAUX de MADAGASCAR - Nom, liste et photos.jpeg");
+    width:100%;
+    height: 45dvh;
+    margin-top: 10%;
+    padding: 0% 5%;
+    
+}
+
+}
